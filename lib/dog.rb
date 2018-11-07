@@ -5,14 +5,14 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
+    @@all << name
   end
 
   def all
 
     @@all.each do |dog|
       puts "#{dog}"
-  end
+    end
 
   end
 
