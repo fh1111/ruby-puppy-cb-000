@@ -23,3 +23,5 @@ end
 
 
 Dog.new("Pluto")
+Dog.new("Pluto2")
+Dog.all
