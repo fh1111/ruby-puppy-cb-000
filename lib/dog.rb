@@ -20,3 +20,6 @@ class Dog
   end
 
 end
+
+
+Dog.new("Pluto")
