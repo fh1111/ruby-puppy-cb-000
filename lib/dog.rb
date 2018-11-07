@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
 
   attr_accessor :name
@@ -5,15 +7,19 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << name
+    @@all << self
   end
 
   def all
 
     @@all.each do |dog|
+      binding.pry
       puts "#{dog}"
     end
 
   end
 
 end
+
+
+
